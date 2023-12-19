@@ -1,0 +1,130 @@
+/* Update your existing CSS and add these styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: blue;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.job,
+.degree {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+}
+/* Add these styles to your CSS file */
+
+#social-media {
+    background-color: #fff;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0 15px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the social media icons */
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: change;
+    bottom: 0;
+    width: 100%;
+}
